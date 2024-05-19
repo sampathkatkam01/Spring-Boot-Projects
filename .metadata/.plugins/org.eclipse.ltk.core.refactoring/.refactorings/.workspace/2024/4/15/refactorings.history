@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;013-java-to-json-1&apos; to &apos;Miniproject-02&apos;" description="Rename resource &apos;013-java-to-json-1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/013-java-to-json-1" name="Miniproject-02" stamp="1712580568546" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;001-SB-RestApi&apos; to &apos;0001-SB-RestApi&apos;" description="Rename resource &apos;001-SB-RestApi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/001-SB-RestApi" name="0001-SB-RestApi" stamp="1712828003751" updateReferences="true"/>
+</session>

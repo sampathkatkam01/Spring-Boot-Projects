@@ -1,0 +1,17 @@
+1708437395981	Delete element
+1708437627268	Delete element
+1708437824827	Delete element
+1708438894972	Rename package 'in.samapth.deletion.service'
+1708441356541	Rename package 'in.sampath.deletion'
+1708441368572	Rename package 'in.sampath.deletion.service'
+1708441375959	Rename package 'in.sampath'
+1708441485376	Rename type 'BookDeletionDao'
+1708441493067	Rename type 'BookdeletionImpl'
+1708441501847	Rename type 'BookDeletionService'
+1708441508036	Rename type 'BookDeletionServiceImpl'
+1708441560275	Rename type 'DeletionDao'
+1708441568158	Rename type 'DeletionImpl'
+1708441575893	Rename type 'DeletionService'
+1708441582404	Rename type 'DeletionServiceImpl'
+1708441788202	Rename resource 'springbean.xml'
+1708442190478	Rename type 'DeleteImpl'

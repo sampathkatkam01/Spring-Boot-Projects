@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\sprningboot(SK)\SK(Workshop)\09-SpringBoot-App-2"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\06-jdbcspringBookDeletion"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\04-jdbcspringBookInsertion"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\02.Engine-app"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\PasswordEncryption"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="in.ashokit"/>
+			<item value="in.sampath"/>
+			<item value="in.samapth"/>
+			<item value="in.sampathapp"/>
+			<item value="In.ashokit"/>
+			<item value="in.ashokIt"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="07-jdbcspringbookReadQueary"/>
+			<item value="07-jdbcspringBookFindById"/>
+			<item value="06-jdbcspringBookDeletion"/>
+			<item value="05-jdbcspringBookUpdate"/>
+			<item value="03-jdbcspring"/>
+			<item value="jdbcDB"/>
+			<item value="PasswordEncryption"/>
+			<item value="01.Engine-app"/>
+			<item value="01-IOC-"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="753"/>
+		<item key="x" value="720"/>
+		<item key="y" value="8"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\26-JRTP(projects)\workspace\125-MS-SpringSecurity-Junit-Moking"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\satyaemailsender\Email-Sending--Registration-Login"/>
+			<item value="C:\sprningboot(SK)\SK(Workshop)\22-ExportDatabaseTable_To_Excel"/>
+			<item value="C:\Users\sampa\Downloads\09-SpringBoot-Demo\09-SpringBoot-Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

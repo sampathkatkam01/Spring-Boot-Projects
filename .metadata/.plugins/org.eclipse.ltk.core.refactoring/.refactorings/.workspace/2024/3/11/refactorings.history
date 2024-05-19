@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;02-webmvc-tabledataonbrowser&apos; to &apos;(ii)-webmvc-tabledataonbrowser&apos;&#x0D;&#x0A;- Original element: &apos;02-webmvc-tabledataonbrowser&apos;&#x0D;&#x0A;- Renamed element: &apos;02-webmvc-tabledataonbrowser&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;02-webmvc-tabledataonbrowser&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=02-webmvc-tabledataonbrowser" name="(ii)-webmvc-tabledataonbrowser" references="true" stamp="1710620048567" version="1.0"/>
+</session>

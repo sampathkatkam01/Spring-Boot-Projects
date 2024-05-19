@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Table of prodcuts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+</head>
+<body>
+  <header>
+  </header>
+  <main >
+    <h2 style="text-align: center; " class="mt-5">Products  table</h2>
+    
+    <a href="/" class="btn btn-primary mt-5 mr-5">Add products</a>
+    <form th:object="${plist}" th:action="@{/data}"  >
+    <table class=" table table-striped table-bordered" style="align-items: center;">
+      <thead>
+        <tr style="text-align: center;">
+			<th>ID</th>
+          <th>Name</th>
+          <th>price</th>
+          <th>Quantity</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+        <tbody style="text-align: center;">
+            <tr th:each="productsdata : ${plist}">
+				<td th:text="${productsdata.pid}"></td>
+                <td th:text="${productsdata.pname}"></td>
+                <td th:text="${productsdata.price}"></td>
+                <td th:text="${productsdata.quantity}"></td>
+                <td>
+					<a href="/" class="btn btn-primary">Edit</a>
+					<a href="#" class="btn btn-danger">Delete</a>
+				</td>  
+                   
+            </tr>
+        </tbody>
+    </table></form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  </main>
+</body>
+</html>

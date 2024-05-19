@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;0005-SB-RestApi-webclint-consumer-app&apos; to &apos;0006-SB-RestApi-webclint-consumer-app&apos;" description="Rename resource &apos;0005-SB-RestApi-webclint-consumer-app&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/0005-SB-RestApi-webclint-consumer-app" name="0006-SB-RestApi-webclint-consumer-app" stamp="1713720958582" updateReferences="true"/>
+</session>

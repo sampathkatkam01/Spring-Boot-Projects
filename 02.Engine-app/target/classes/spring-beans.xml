@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="PP" class="in.ashokit.petrolpayments"/>
+    <bean id="DP" class="in.ashokit.DieselPayments"/>
+    
+    <bean  id="EnS" class="in.ashokit.Engineservice">
+    
+    <property name="car" ref="PP"/>
+    
+    <constructor-arg ref="DP"/>
+    </bean>
+    
+    
+
+</beans>
