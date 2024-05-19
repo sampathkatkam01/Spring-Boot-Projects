@@ -1,0 +1,36 @@
+2024-03-06T17:13:03.131+05:30  INFO 10068 --- [main] in.sampath.Application                   : Starting Application using Java 17.0.10 with PID 10068 (C:\sprningboot(SK)\SK(Workshop)\14-CrudOperations-data-jpa-app-02\target\classes started by sampa in C:\sprningboot(SK)\SK(Workshop)\14-CrudOperations-data-jpa-app-02)
+2024-03-06T17:13:03.136+05:30  INFO 10068 --- [main] in.sampath.Application                   : No active profile set, falling back to 1 default profile: "default"
+2024-03-06T17:13:03.820+05:30  INFO 10068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-06T17:13:03.884+05:30  INFO 10068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2024-03-06T17:13:04.260+05:30  INFO 10068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-06T17:13:04.338+05:30  INFO 10068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-06T17:13:04.381+05:30  INFO 10068 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-06T17:13:04.664+05:30  INFO 10068 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-06T17:13:04.693+05:30  INFO 10068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-06T17:13:05.354+05:30  INFO 10068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a40bb52
+2024-03-06T17:13:05.356+05:30  INFO 10068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-06T17:13:06.332+05:30  INFO 10068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-06T17:13:06.471+05:30  INFO 10068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T17:13:06.780+05:30  INFO 10068 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-06T17:13:07.209+05:30  INFO 10068 --- [main] in.sampath.Application                   : Started Application in 4.569 seconds (process running for 5.331)
+2024-03-06T17:13:07.355+05:30  INFO 10068 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T17:13:07.357+05:30  INFO 10068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-06T17:13:07.369+05:30  INFO 10068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-06T17:49:16.292+05:30  INFO 13712 --- [main] in.sampath.Application                   : Starting Application using Java 17.0.10 with PID 13712 (C:\sprningboot(SK)\SK(Workshop)\14-CrudOperations-data-jpa-app-02\target\classes started by sampa in C:\sprningboot(SK)\SK(Workshop)\14-CrudOperations-data-jpa-app-02)
+2024-03-06T17:49:16.294+05:30  INFO 13712 --- [main] in.sampath.Application                   : No active profile set, falling back to 1 default profile: "default"
+2024-03-06T17:49:16.702+05:30  INFO 13712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-06T17:49:16.746+05:30  INFO 13712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-03-06T17:49:17.070+05:30  INFO 13712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-06T17:49:17.105+05:30  INFO 13712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-06T17:49:17.128+05:30  INFO 13712 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-06T17:49:17.276+05:30  INFO 13712 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-06T17:49:17.296+05:30  INFO 13712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-06T17:49:17.571+05:30  INFO 13712 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eb27768
+2024-03-06T17:49:17.573+05:30  INFO 13712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-06T17:49:18.186+05:30  INFO 13712 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-06T17:49:18.217+05:30  INFO 13712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T17:49:18.456+05:30  INFO 13712 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-06T17:49:18.825+05:30  INFO 13712 --- [main] in.sampath.Application                   : Started Application in 2.854 seconds (process running for 3.437)
+2024-03-06T17:49:18.917+05:30  INFO 13712 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T17:49:18.919+05:30  INFO 13712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-06T17:49:18.927+05:30  INFO 13712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
