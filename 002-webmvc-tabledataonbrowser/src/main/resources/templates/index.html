@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> <<<Database Table>></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+		
+		text-align: center;
+	}
+    header {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+		background-color:white;
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+    }
+    th {
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Website with Table</h1>
+  </header>
+  <main>
+    <h2>Database table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>EmailID</th>
+          <th>city</th>
+        </tr>
+      </thead>
+        <tbody>
+            <tr th:each="product : ${productdata}">
+                <td th:text="${product.id}"></td>
+                <td th:text="${product.name}"></td>
+                <td th:text="${product.email}"></td>
+                <td th:text="${product.city}"></td>
+            </tr>
+        </tbody>
+    </table>
+  </main>
+</body>
+</html>
